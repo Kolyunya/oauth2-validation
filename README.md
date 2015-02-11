@@ -23,4 +23,4 @@ if ($authenticated) {
 ```
 
 # Build status
-[![Build Status](https://travis-ci.org/Kolyunya/oauth2-validation.svg)](https://travis-ci.org/Kolyunya/oauth2-validation) [![License](https://poser.pugx.org/kolyunya/oauth-authentication/license.svg)](https://packagist.org/packages/kolyunya/oauth2-validation)
+[![Build Status](https://travis-ci.org/Kolyunya/oauth2-validation.svg)](https://travis-ci.org/Kolyunya/oauth2-validation) [![License](https://poser.pugx.org/kolyunya/oauth2-validation/license.svg)](https://packagist.org/packages/kolyunya/oauth2-validation)
