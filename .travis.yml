@@ -1,0 +1,10 @@
+language: php
+php:
+  - 5.5
+before_script:
+  - composer --prefer-source install
+script:
+  - php vendor/bin/phpcs --standard=PSR1 --encoding=utf-8 --warning-severity=0 --report=summary ./sources ./tests
+  - php vendor/bin/phpcs --standard=PSR2 --encoding=utf-8 --warning-severity=0 --report=summary ./sources ./tests
+  - php vendor/bin/phpunit tests/FactoryTest.php
+  - php vendor/bin/phpunit tests/clients

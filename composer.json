@@ -1,0 +1,36 @@
+{
+    "name": "kolyunya/oauth2-validation",
+    "description": "The library provides a uniform API for validation of OAuth2 access tokens of various platforms. That is using the library you can check if the access token you receive from the client is valid for a specific user of a platform.",
+    "type": "library",
+    "license": "GNU GPL v3.0",
+    "homepage": "https://github.com/Kolyunya/oauth2-validation",
+    "keywords":
+    [
+        "OAuth",
+        "OAuth2",
+        "authentication",
+        "validation",
+        "access-token"
+    ],
+    "authors":
+    [
+        {
+            "name": "Oleynikov Nikolay",
+            "email": "OleynikovNY@mail.ru",
+            "homepage": "http://github.com/Kolyunya/"
+        }
+    ],
+    "require-dev":
+    {
+        "phpunit/phpunit": "3.7.*",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "kolyunya\\oauth2\\validation\\": "sources",
+            "kolyunya\\oauth2\\validation\\tests\\": "tests"
+        }
+    }
+}
